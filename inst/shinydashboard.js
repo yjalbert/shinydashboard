@@ -55,10 +55,10 @@ $(function() {
     if ($branding.length === 0 || $sidebar.length === 0) return;
 
     var padTop = parseInt($sidebar.css('padding-top'));
-    padTop += $branding.height();
+    padTop += paseInt($branding.css('height'));
 
     $sidebar.css('padding-top', padTop + 'px');
-  }, 5000);
+  }, 1);
 
 
   // menuOutputBinding
