@@ -55,7 +55,7 @@ $(function() {
     if ($branding.length === 0 || $sidebar.length === 0) return;
 
     var padTop = parseInt($sidebar.css('padding-top'));
-    padTop += paseInt($branding.css('height'));
+    padTop += parseInt($branding.css('height'));
 
     $sidebar.css('padding-top', padTop + 'px');
   }, 1);
