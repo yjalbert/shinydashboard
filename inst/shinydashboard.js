@@ -58,7 +58,7 @@ $(function() {
     padTop += $branding.height();
 
     $sidebar.css('padding-top', padTop + 'px');
-  }, 1);
+  }, 5);
 
 
   // menuOutputBinding
